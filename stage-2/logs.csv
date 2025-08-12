@@ -1,0 +1,21 @@
+Timestamp,Hostname,Service,Severity,Content
+2025-08-07 09:15:23,web01.prod.local,serviceA,INFO,User authentication successful
+2025-08-07 09:15:45,db02.prod.local,serviceB,INFO,Database connection established
+2025-08-07 09:16:12,app03.prod.local,serviceC,INFO,Processing payment request
+2025-08-07 09:16:33,web01.prod.local,serviceA,WARN,Session timeout warning
+2025-08-07 09:17:01,cache01.prod.local,serviceD,INFO,Cache miss for key user_123
+2025-08-07 09:17:18,db02.prod.local,serviceB,INFO,Query executed in 45ms
+2025-08-07 09:17:42,app03.prod.local,serviceC,INFO,Payment processed successfully
+2025-08-07 09:18:05,api01.prod.local,serviceE,ERROR,Rate limit exceeded for IP
+2025-08-07 09:18:29,web01.prod.local,serviceA,INFO,User logged out
+2025-08-07 09:18:51,cache01.prod.local,serviceD,INFO,Cache updated for user_456
+2025-08-07 09:19:14,db02.prod.local,serviceB,INFO,Connection pool size: 15/20
+2025-08-07 09:19:37,app03.prod.local,serviceC,ERROR,Order validation failed
+2025-08-07 09:20:02,api01.prod.local,serviceE,INFO,Health check passed
+2025-08-07 09:20:25,web01.prod.local,serviceA,INFO,New user registration
+2025-08-07 09:20:48,cache01.prod.local,serviceD,WARN,Memory usage at 67%
+2025-08-07 09:21:13,db02.prod.local,serviceB,WARN,Slow query detected 2.3s
+2025-08-07 09:21:36,app03.prod.local,serviceC,INFO,Inventory updated
+2025-08-07 09:21:59,api01.prod.local,serviceE,WARN,SSL certificate expires in 30 days
+2025-08-07 09:22:22,web01.prod.local,serviceA,INFO,Password reset requested
+2025-08-07 09:22:45,cache01.prod.local,serviceD,INFO,Evicted 50 expired keys
