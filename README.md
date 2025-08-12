@@ -2,6 +2,13 @@
 
 Clone the repository using `git clone https://github.com/edbarbera-dt/linux-totw.git`
 
+## Prerequisites
+- Install `git` if not already installed.
+- Terminal of some sort:
+  - On MacOS you can use the built-in Terminal app
+  - On Windows use the WSL terminal
+
+
 ## Stage 1
 1. Navigate to `stage-1` directory.
 2. List the contents of the current directory.
@@ -23,4 +30,7 @@ Clone the repository using `git clone https://github.com/edbarbera-dt/linux-totw
 3. Extract only the `Timestamp` and `Hostname` columns using `awk` for the log lines from step 1.
 4. Use `sed` to replace all occurrences of "serviceB" with "WebApp" in `logs.csv`
 5. Fetch the following paper from `https://api.isevenapi.xyz/api/iseven/69/` and write the output directly to a file.
-6. Run `script.sh` and determine the size of the file created in MB - **this is your final answer!**
+6. Create an `alias` for a commonly used command; `cd ..`. Persist this by adding it to your shell configuration file (e.g., `~/.bashrc` or `~/.zshrc`).
+7. Run `script.sh` and determine the size of the file created in MB - **this is your final answer!**
+
+**BONUS: Are there any other commands you can create aliases for to help speed up your workflow?**
