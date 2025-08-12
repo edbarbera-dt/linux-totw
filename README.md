@@ -1,5 +1,7 @@
 # Linux ToTW
 
+Clone the repository using `git clone https://github.com/edbarbera-dt/linux-totw.git`
+
 ## Stage 1
 1. Navigate to `stage-1` directory.
 2. List the contents of the current directory.
@@ -9,7 +11,9 @@
 5. Remove `remove-me` folder. (This command is very powerful, but always use with caution!)
 6. Change the permissions of `script.sh` to make it executable and run it.
 7. Use a pipe to send the output of a command that lists the contents of `count-me` to the `wc -l` command to count the number of items in the folder - **this is your final answer!**
+
 **BONUS: Repeat step 6 using `find`, but this time include files in subdirectories.**
+
 **BONUS BONUS: Use `find` complete step 6 (hint: there's a handy flag to do just this!)**
 
 
