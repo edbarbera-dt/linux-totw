@@ -8,6 +8,17 @@ Clone the repository using `git clone https://github.com/edbarbera-dt/linux-totw
   - On MacOS you can use the built-in Terminal app
   - On Windows use the WSL terminal
 
+## Learning Outcomes
+### Technical Skills:
+- Navigate Unix file systems confidently
+- Extract and filter log data using `grep`, `awk`, `sed`
+- Manage file permissions and run scripts
+- Chain commands for efficient data processing
+
+### Dynatrace Value
+- **Customer Credibility**: Handle technical discussions and troubleshooting with confidence
+- **Troubleshooting**: Analyse customer logs and guide them through system issues
+- **Professional Growth**: Communicate effectively with DevOps and SRE teams
 
 ## Stage 1
 1. Navigate to `stage-1` directory.
