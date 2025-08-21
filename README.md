@@ -38,7 +38,7 @@ Clone the repository using `git clone https://github.com/edbarbera-dt/linux-totw
 ## Stage 2
 1. Navigate to `stage-2` directory.
 2. Find all lines containing `ERROR` or `WARN` messages in `logs.csv`
-3. Extract only the `Timestamp` and `Hostname` columns using `awk` for the log lines from step 1.
+3. Extract only the `Timestamp` and `Hostname` columns using `awk` for the log lines from step 2.
 4. Use `sed` to replace all occurrences of "serviceB" with "WebApp" in `logs.csv`
 5. Fetch the following paper from `https://api.isevenapi.xyz/api/iseven/69/` and write the output directly to a file.
 6. Create an `alias` for a commonly used command; `cd ..`. Persist this by adding it to your shell configuration file (e.g., `~/.bashrc` or `~/.zshrc`).
